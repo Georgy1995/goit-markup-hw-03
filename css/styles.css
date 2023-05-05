@@ -82,8 +82,9 @@ img {
   letter-spacing: 0.02em;
   background-color: #2e2f42;
   text-align: center;
-  padding-left: 316px;
-  padding-right: 316px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   color: var(--btn-hover-focus-title-color);
 }
@@ -151,10 +152,12 @@ img {
 }
 .last-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .first-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .page-footer {
   background-color: #2e2f42;
@@ -340,7 +343,7 @@ body {
   padding-bottom: 100px;
 }
 .employees-list-text-content {
-  padding-top: 32px;
+  padding: 32px 16px;
 }
 
 .list-btn {
