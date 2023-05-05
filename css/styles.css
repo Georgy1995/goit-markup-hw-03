@@ -360,8 +360,9 @@ body {
 
 .list-btn {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .link-list {
@@ -379,6 +380,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 .portfolio-section {
