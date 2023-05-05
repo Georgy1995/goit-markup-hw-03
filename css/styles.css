@@ -301,7 +301,6 @@ body {
 .second-section-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .second-section {
@@ -381,4 +380,8 @@ body {
 .menu-link {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.item-second-section-list {
+  flex-basis: calc((100% - 72px) / 4);
 }
