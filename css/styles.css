@@ -270,13 +270,13 @@ body {
 .menu-header {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contact-list {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .container {
@@ -297,7 +297,8 @@ body {
 .second-section-list {
   display: flex;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .second-section {
@@ -362,12 +363,4 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-}
-
-.second-section-list {
-  gap: 24px;
-}
-
-.strategy-item {
-  width: calc((100% - 72px) / 4);
 }
