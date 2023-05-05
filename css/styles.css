@@ -251,12 +251,12 @@ body {
 .main-button:hover {
   color: var(--btn-hover-focus-title-color);
   background-color: #404bbf;
-  border: 1px solid;
+  border: 1px solid transparent;
 }
 .main-button:focus {
   color: var(--btn-hover-focus-title-color);
   background-color: #404bbf;
-  border: 1px solid;
+  border: 1px solid transparent;
 }
 .address {
   font-style: normal;
