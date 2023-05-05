@@ -377,3 +377,8 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
