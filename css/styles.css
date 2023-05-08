@@ -18,6 +18,9 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   color: var(--main-color);
 }
@@ -69,8 +72,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-right: 864px;
-  margin-top: 18px;
+  width: 264px;
 
   color: var(--text-second-part-logo-footer-color);
 }
@@ -114,7 +116,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-left: 403px;
+  text-align: center;
   margin-bottom: 72px;
   color: var(--main-color);
 }
@@ -135,7 +137,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
 
   color: var(--body-color);
 }
@@ -179,7 +180,7 @@ body {
   font-style: normal;
 }
 .hidden-title {
-  visibility: hidden;
+  display: none;
 }
 .first-section {
   background-color: #2e2f42;
@@ -238,8 +239,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: 1px solid var(--main-button-border-color);
   align-items: center;
@@ -261,13 +260,10 @@ body {
 .address {
   font-style: normal;
   margin-left: auto;
-  padding-right: 156px;
 }
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 25;
-  padding-bottom: 25;
 }
 
 .page-nav {
@@ -299,7 +295,6 @@ body {
 }
 
 .page-header {
-  width: 1440px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -334,8 +329,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-left: 483px;
-  padding-top: 120px;
+  text-align: center;
   margin-bottom: 72px;
   color: var(--main-color);
 }
@@ -347,7 +341,6 @@ body {
 }
 
 .page-footer {
-  width: 1440px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -370,7 +363,6 @@ body {
   flex-wrap: wrap;
   gap: 48px;
   margin-top: 72px;
-  padding-bottom: 120px;
   column-gap: 24px;
 }
 
@@ -389,13 +381,15 @@ body {
 }
 
 .logo-footer {
+  font-family: var(--second-font-famyli);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.menu-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  color: var(--logo-main-button-color);
 }
 
 .item-second-section-list {
