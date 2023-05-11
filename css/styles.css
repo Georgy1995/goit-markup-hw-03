@@ -365,7 +365,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
-  margin-top: 72px;
   column-gap: 24px;
 }
 
